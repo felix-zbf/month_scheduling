@@ -1,0 +1,49 @@
+def _ASU1_start(m, s):
+    for s in range(2,6):
+        if m.m1.Y[s].value == 0:
+            if m.addtime1[s-1].value >= 3:
+                return m.m1.Startup[s] == 4 * 24 * (20000 * 0.4499 + 500 / 804 * 1.143 * 1400)
+            if m.addtime1[s-1].value <= 3:
+                return m.m1.Startup[s] == 20000 * 0.4499 + 500 / 804 * 1.143 * 1400
+        if m.m1.Y[s].value == 0:
+            return m.addtime1[s] == m.addtime1[s-1] + time[s]
+m.ASU1_start = Constraint(m.SC, rule=_ASU1_start)
+
+def _ASU2_start(m, s):
+    for s in range(2,6):
+        if m.m2.Y[s].value == 1:
+            if m.addtime2[s-1].value >= 3:
+                return m.m2.Startup[s] == 4 * 24 * (20000 * 0.4499 + 500 / 804 * 1.143 * 1400)
+            if m.addtime2[s-1].value <= 3:
+                return m.m2.Startup[s] == 20000 * 0.4499 + 500 / 804 * 1.143 * 1400
+        if m.m2.Y[s].value == 0:
+            return m.addtime2[s] == m.addtime2[s-1] + time[s]
+m.ASU2_start = Constraint(m.SC, rule=_ASU2_start)
+
+def _ASU4_start(m, s):
+    for s in range(2,6):
+        if m.m4.Y[s].value == 1:
+            if m.addtime4[s-1].value >= 3:
+                return m.m4.Startup[s] == 4 * 24 * (30000 * 0.4499 + 1300 / 804 * 1.143 * 1400)
+            if m.addtime4[s-1].value <= 3:
+                return m.m4.Startup[s] == 30000 * 0.4499 + 1300 / 804 * 1.143 * 1400
+        if m.m4.Y[s].value == 0:
+            return m.addtime4[s] == m.addtime4[s-1] + time[s]
+m.ASU4_start = Constraint(m.SC, rule=_ASU4_start)
+
+	    if m.m3.Y[s].value >= 0:
+		if m.addtime3[s-1].value >= 3:
+		    return m.m3.Startup[s] == 4 * 24 * (20000 * 0.4499 + 2300 / 804 * 1.143 * 1400)
+		if (m.addtime3[s-1].value <= 3) and (m.addtime3[s-1].value > 0):
+		    return m.m3.Startup[s] == 20000 * 0.4499 + 2300 / 804 * 1.143 * 1400
+		if m.addtime3[s-1].value == 0:
+		    return m.m3.Startup[s] == 0
+
+	    if (m.m3.Y[s].value == 1) and (m.addtime3[s-1].value >= 3):
+		#return m.m3.Startup[s] == 4 * 24 * (20000 * 0.4499 + 2300 / 804 * 1.143 * 1400)
+		m.addtime3[s] = 0
+	    if (m.m3.Y[s].value == 1) and (m.addtime3[s-1].value > 0) and (m.addtime3[s].value < 3):
+		#return m.m3.Startup[s] == 20000 * 0.4499 + 2300 / 804 * 1.143 * 1400
+		m.addtime3[s] = 0
+	    if (m.m3.Y[s].value == 1) and (m.addtime3[s-1].value == 0):
+		return m.m3.Startup[s] == 0

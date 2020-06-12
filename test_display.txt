@@ -1,0 +1,25 @@
+Model unknown
+
+  Variables:
+    x : Size=1, Index=None
+        Key  : Lower : Value : Upper : Fixed : Stale : Domain
+        None :     0 :   6.0 :     6 : False : False :  Reals
+    y : Size=1, Index=None
+        Key  : Lower : Value : Upper : Fixed : Stale : Domain
+        None :     0 :   1.0 :     4 : False : False :  Reals
+    z : Size=1, Index=None
+        Key  : Lower : Value : Upper : Fixed : Stale : Domain
+        None :  None :  11.0 :  None : False : False :  Reals
+
+  Objectives:
+    obj : Size=1, Index=None, Active=True
+        Key  : Active : Value
+        None :   True :  12.0
+
+  Constraints:
+    ASU1_start : Size=1
+        Key  : Lower : Body : Upper
+        None :   0.0 :  0.0 :   0.0
+    ASU3_start : Size=1
+        Key  : Lower : Body : Upper
+        None :   1.0 :  1.0 :   1.0

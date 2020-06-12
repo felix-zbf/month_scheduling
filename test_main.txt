@@ -1,0 +1,25 @@
+3 Var Declarations
+    x : Size=1, Index=None
+        Key  : Lower : Value : Upper : Fixed : Stale : Domain
+        None :     0 :   6.0 :     6 : False : False :  Reals
+    y : Size=1, Index=None
+        Key  : Lower : Value : Upper : Fixed : Stale : Domain
+        None :     0 :   1.0 :     4 : False : False :  Reals
+    z : Size=1, Index=None
+        Key  : Lower : Value : Upper : Fixed : Stale : Domain
+        None :  None :  11.0 :  None : False : False :  Reals
+
+1 Objective Declarations
+    obj : Size=1, Index=None, Active=True
+        Key  : Active : Sense    : Expression
+        None :   True : maximize : z + y
+
+2 Constraint Declarations
+    ASU1_start : Size=1, Index=None, Active=True
+        Key  : Lower : Body       : Upper : Active
+        None :   0.0 : -5 + z - x :   0.0 :   True
+    ASU3_start : Size=1, Index=None, Active=True
+        Key  : Lower : Body : Upper : Active
+        None :   1.0 :    y :   1.0 :   True
+
+6 Declarations: x y z ASU1_start ASU3_start obj

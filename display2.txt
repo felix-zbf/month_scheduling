@@ -1,0 +1,949 @@
+Model unknown
+
+  Variables:
+    F : Size=4, Index=G
+        Key  : Lower : Value   : Upper : Fixed : Stale : Domain
+         GAR :     0 :   800.0 :  None : False : False :  Reals
+         GOX :     0 : 51000.0 :  None : False : False :  Reals
+        LPGN :     0 :       0 :  None : False :  True :  Reals
+        MPGN :     0 :       0 :  None : False :  True :  Reals
+    F_GAN : Size=15, Index=F_GAN_index
+        Key         : Lower : Value         : Upper : Fixed : Stale : Domain
+        ('LPGN', 1) :     0 :       10000.0 :  None : False : False :  Reals
+        ('LPGN', 2) :     0 :           0.0 :  None : False : False :  Reals
+        ('LPGN', 3) :     0 :           0.0 :  None : False : False :  Reals
+        ('LPGN', 4) :     0 :           0.0 :  None : False : False :  Reals
+        ('LPGN', 5) :     0 :           0.0 :  None : False : False :  Reals
+        ('MPGN', 1) :     0 :           0.0 :  None : False : False :  Reals
+        ('MPGN', 2) :     0 :       16000.0 :  None : False : False :  Reals
+        ('MPGN', 3) :     0 :       17200.0 :  None : False : False :  Reals
+        ('MPGN', 4) :     0 :       20000.0 :  None : False : False :  Reals
+        ('MPGN', 5) :     0 :       20000.0 :  None : False : False :  Reals
+         ('SLT', 1) :     0 :      47506.43 :  None : False : False :  Reals
+         ('SLT', 2) :     0 : 7375.02730237 :  None : False : False :  Reals
+         ('SLT', 3) :     0 :             0 :  None : False :  True :  Reals
+         ('SLT', 4) :     0 :             0 :  None : False :  True :  Reals
+         ('SLT', 5) :     0 :             0 :  None : False :  True :  Reals
+    Y_GAN : Size=15, Index=Y_GAN_index
+        Key         : Lower : Value : Upper : Fixed : Stale : Domain
+        ('LPGN', 1) :     0 :   1.0 :     1 : False : False : Binary
+        ('LPGN', 2) :     0 :   0.0 :     1 : False : False : Binary
+        ('LPGN', 3) :     0 :   0.0 :     1 : False : False : Binary
+        ('LPGN', 4) :     0 :   0.0 :     1 : False : False : Binary
+        ('LPGN', 5) :     0 :   0.0 :     1 : False : False : Binary
+        ('MPGN', 1) :     0 :   0.0 :     1 : False : False : Binary
+        ('MPGN', 2) :     0 :   1.0 :     1 : False : False : Binary
+        ('MPGN', 3) :     0 :   1.0 :     1 : False : False : Binary
+        ('MPGN', 4) :     0 :   1.0 :     1 : False : False : Binary
+        ('MPGN', 5) :     0 :   1.0 :     1 : False : False : Binary
+         ('SLT', 1) :     0 :     0 :     1 : False :  True : Binary
+         ('SLT', 2) :     0 :     0 :     1 : False :  True : Binary
+         ('SLT', 3) :     0 :     0 :     1 : False :  True : Binary
+         ('SLT', 4) :     0 :     0 :     1 : False :  True : Binary
+         ('SLT', 5) :     0 :     0 :     1 : False :  True : Binary
+    Q_GAN1 : Size=1, Index=None
+        Key  : Lower : Value  : Upper : Fixed : Stale : Domain
+        None :     0 : 7520.0 :  None : False : False :  Reals
+    Q_GAN2 : Size=1, Index=None
+        Key  : Lower : Value  : Upper : Fixed : Stale : Domain
+        None :     0 : 5617.2 :  None : False : False :  Reals
+    Vent : Size=1, Index=None
+        Key  : Lower : Value : Upper : Fixed : Stale : Domain
+        None :     0 :   0.0 :  None : False : False :  Reals
+    F_L : Size=3, Index=S
+        Key : Lower : Value         : Upper : Fixed : Stale : Domain
+        LAR :     0 : 2602.88288002 :  None : False : False :  Reals
+        LIN :     0 : 2313.29036988 :  None : False : False :  Reals
+        LOX :     0 :      1361.558 :  None : False : False :  Reals
+    Sale : Size=3, Index=S
+        Key : Lower : Value         : Upper : Fixed : Stale : Domain
+        LAR :     0 : 1802.88288002 :  None : False : False :  Reals
+        LIN :     0 : 4513.29036988 :  None : False : False :  Reals
+        LOX :     0 :      1361.558 :  None : False : False :  Reals
+    rev_liq : Size=1, Index=None
+        Key  : Lower : Value         : Upper : Fixed : Stale : Domain
+        None :     0 : 295787.937481 :  None : False : False :  Reals
+    rev_gas : Size=1, Index=None
+        Key  : Lower : Value    : Upper : Fixed : Stale : Domain
+        None :     0 : 741717.6 :  None : False : False :  Reals
+    rev_pipe : Size=1, Index=None
+        Key  : Lower : Value : Upper : Fixed : Stale : Domain
+        None :     0 :     0 :  None : False :  True :  Reals
+    pro_liq : Size=1, Index=None
+        Key  : Lower : Value         : Upper : Fixed : Stale : Domain
+        None :     0 : 72671.9256966 :  None : False : False :  Reals
+    pro_vap : Size=1, Index=None
+        Key  : Lower : Value : Upper : Fixed : Stale : Domain
+        None :     0 :   0.0 :  None : False : False :  Reals
+    cost1 : Size=1, Index=None
+        Key  : Lower : Value        : Upper : Fixed : Stale : Domain
+        None :     0 : 2396167.1568 :  None : False : False :  Reals
+    cost2 : Size=1, Index=None
+        Key  : Lower : Value    : Upper : Fixed : Stale : Domain
+        None :     0 : 117600.0 :  None : False : False :  Reals
+    cost3 : Size=1, Index=None
+        Key  : Lower : Value    : Upper : Fixed : Stale : Domain
+        None :     0 : 315292.8 :  None : False : False :  Reals
+    cost4 : Size=1, Index=None
+        Key  : Lower : Value : Upper : Fixed : Stale : Domain
+        None :     0 :     0 :  None : False :  True :  Reals
+    AIRchange : Size=1, Index=None
+        Key  : Lower : Value : Upper : Fixed : Stale : Domain
+        None :     0 :     0 :  None : False :  True :  Reals
+    punish : Size=1, Index=None
+        Key  : Lower : Value : Upper : Fixed : Stale : Domain
+        None :     0 :     0 :  None : False :  True :  Reals
+    profit : Size=1, Index=None
+        Key  : Lower : Value : Upper : Fixed : Stale : Domain
+        None :  None :     0 :  None : False :  True :  Reals
+
+  Objectives:
+    obj : Size=1, Index=None, Active=True
+        Key  : Active : Value
+        None :   True : -1718882.49363
+
+  Constraints:
+    B1 : Size=1
+        Key  : Lower : Body     : Upper
+        None :  None : 1361.558 : 5000.0
+    B2 : Size=1
+        Key  : Lower : Body          : Upper
+        None :  None : 4513.29036988 : 5000.0
+    B3 : Size=1
+        Key  : Lower : Body          : Upper
+        None :  None : 1802.88288002 : 5000.0
+    GOX_GW1 : Size=1
+        Key  : Lower : Body : Upper
+        None :   0.0 :  0.0 :   0.0
+    GOX_GW2 : Size=1
+        Key  : Lower   : Body    : Upper
+        None : 51000.0 : 51000.0 : 51000.0
+    GOX_CC1 : Size=1
+        Key  : Lower : Body : Upper
+        None :   0.0 :  0.0 :   0.0
+    GOX_CC2 : Size=1
+        Key  : Lower : Body : Upper
+        None :   0.0 :  0.0 :   0.0
+    yiqu_1 : Size=1
+        Key  : Lower : Body : Upper
+        None :   0.0 :  0.0 :   0.0
+    yiqu_2 : Size=1
+        Key  : Lower : Body : Upper
+        None :   0.0 :  0.0 :   0.0
+    yiqu_3 : Size=5
+        Key : Lower : Body               : Upper
+          1 :  None :                0.0 :   0.0
+          2 :  None : -3.63797880709e-12 :   0.0
+          3 :  None :            -1200.0 :   0.0
+          4 :  None :            -4000.0 :   0.0
+          5 :  None :            -4000.0 :   0.0
+    yiqu_4 : Size=5
+        Key : Lower : Body    : Upper
+          1 :  None :     0.0 :   0.0
+          2 :  None : -4000.0 :   0.0
+          3 :  None : -2800.0 :   0.0
+          4 :  None :     0.0 :   0.0
+          5 :  None :     0.0 :   0.0
+    yiqu_5 : Size=5
+        Key : Lower : Body    : Upper
+          1 :  None : -2000.0 :   0.0
+          2 :  None :     0.0 :   0.0
+          3 :  None :     0.0 :   0.0
+          4 :  None :     0.0 :   0.0
+          5 :  None :     0.0 :   0.0
+    yiqu_6 : Size=5
+        Key : Lower : Body : Upper
+          1 :  None :  0.0 :   0.0
+          2 :  None :  0.0 :   0.0
+          3 :  None :  0.0 :   0.0
+          4 :  None :  0.0 :   0.0
+          5 :  None :  0.0 :   0.0
+    yiqu_7 : Size=1
+        Key  : Lower : Body : Upper
+        None :  None : -1.0 :   0.0
+    yiqu_8 : Size=1
+        Key  : Lower : Body : Upper
+        None :  None : -1.0 :   0.0
+    erqu_1 : Size=1
+        Key  : Lower : Body : Upper
+        None :   0.0 :  0.0 :   0.0
+    erqu_2 : Size=1
+        Key  : Lower : Body               : Upper
+        None :   0.0 : -4.54747350886e-13 :   0.0
+    erqu_3 : Size=1
+        Key  : Lower : Body : Upper
+        None :  None :  0.0 :   0.0
+    erqu_4 : Size=1
+        Key  : Lower : Body : Upper
+        None :  None :  0.0 :   0.0
+    GAN_GW1 : Size=1
+        Key  : Lower   : Body    : Upper
+        None : 60000.0 : 60000.0 : 60000.0
+    GAN_GW5 : Size=1
+        Key  : Lower   : Body    : Upper
+        None : 10000.0 : 10000.0 : 10000.0
+    GAN_CC1 : Size=1
+        Key  : Lower : Body : Upper
+        None :   0.0 :  0.0 :   0.0
+    GAN_CC2 : Size=1
+        Key  : Lower : Body : Upper
+        None :   0.0 :  0.0 :   0.0
+    GAR_GW1 : Size=1
+        Key  : Lower : Body : Upper
+        None :   0.0 :  0.0 :   0.0
+    GAR_GW2 : Size=1
+        Key  : Lower : Body  : Upper
+        None : 800.0 : 800.0 : 800.0
+    GAR_CC1 : Size=1
+        Key  : Lower : Body               : Upper
+        None :   0.0 : -2.27373675443e-13 :   0.0
+    GAR_CC2 : Size=1
+        Key  : Lower : Body : Upper
+        None :   0.0 :  0.0 :   0.0
+    OBJ1 : Size=1
+        Key  : Lower : Body              : Upper
+        None :   0.0 : 2.91038304567e-11 :   0.0
+    OBJ2 : Size=1
+        Key  : Lower    : Body     : Upper
+        None : 741717.6 : 741717.6 : 741717.6
+    OBJ4 : Size=1
+        Key  : Lower : Body : Upper
+        None :   0.0 :  0.0 :   0.0
+    OBJ5 : Size=1
+        Key  : Lower : Body : Upper
+        None :   0.0 :  0.0 :   0.0
+    OBJ6 : Size=1
+        Key  : Lower : Body : Upper
+        None :   0.0 :  0.0 :   0.0
+    OBJ7 : Size=1
+        Key  : Lower : Body               : Upper
+        None :   0.0 : -1.45519152284e-11 :   0.0
+    OBJ8 : Size=1
+        Key  : Lower : Body : Upper
+        None :   0.0 :  0.0 :   0.0
+
+  Blocks:
+    Block m1
+    
+      Variables:
+        F : Size=8, Index=m1.G
+            Key : Lower : Value : Upper : Fixed : Stale : Domain
+            AIR :     0 :   0.0 :  None : False : False :  Reals
+            GAN :     0 :   0.0 :  None : False : False :  Reals
+            GAR :     0 :   0.0 :  None : False : False :  Reals
+            GOX :     0 :   0.0 :  None : False : False :  Reals
+            LAR :     0 :   0.0 :  None : False : False :  Reals
+            LIN :     0 :   0.0 :  None : False : False :  Reals
+            LOX :     0 :   0.0 :  None : False : False :  Reals
+            SLT :     0 :     0 :  None : False :  True :  Reals
+        Y : Size=1, Index=None
+            Key  : Lower : Value : Upper : Fixed : Stale : Domain
+            None :     0 :   0.0 :     1 : False : False : Binary
+        Y_GAR : Size=1, Index=None
+            Key  : Lower : Value : Upper : Fixed : Stale : Domain
+            None :     0 :   0.0 :     1 : False : False : Binary
+        Q : Size=4, Index=m1.C
+            Key  : Lower : Value : Upper : Fixed : Stale : Domain
+            AIRC :     0 :   0.0 :  None : False : False :  Reals
+            GOXC :     0 :   0.0 :  None : False : False :  Reals
+            LPNC :     0 :     0 :  None : False :  True :  Reals
+            MPNC :     0 :     0 :  None : False :  True :  Reals
+    
+      Objectives:
+        None
+    
+      Constraints:
+        ASU1_1 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        ASU1_2 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        ASU1_3 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        ASU1_4 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        ASU1_5 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        ASU1_7 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        ASU1_8 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        ASU1_9 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        ASU1_10 : Size=1
+            Key  : Lower : Body : Upper
+            None :  None :  0.0 :   0.0
+        ASU1_11 : Size=1
+            Key  : Lower : Body : Upper
+            None :  None :  0.0 :   0.0
+    Block m2
+    
+      Variables:
+        F : Size=8, Index=m2.G
+            Key : Lower : Value : Upper : Fixed : Stale : Domain
+            AIR :     0 :   0.0 :  None : False : False :  Reals
+            GAN :     0 :   0.0 :  None : False : False :  Reals
+            GAR :     0 :   0.0 :  None : False : False :  Reals
+            GOX :     0 :   0.0 :  None : False : False :  Reals
+            LAR :     0 :   0.0 :  None : False : False :  Reals
+            LIN :     0 :   0.0 :  None : False : False :  Reals
+            LOX :     0 :   0.0 :  None : False : False :  Reals
+            SLT :     0 :     0 :  None : False :  True :  Reals
+        Y : Size=1, Index=None
+            Key  : Lower : Value : Upper : Fixed : Stale : Domain
+            None :     0 :   0.0 :     1 : False : False : Binary
+        Y_GAR : Size=1, Index=None
+            Key  : Lower : Value : Upper : Fixed : Stale : Domain
+            None :     0 :   0.0 :     1 : False : False : Binary
+        Q : Size=4, Index=m2.C
+            Key  : Lower : Value : Upper : Fixed : Stale : Domain
+            AIRC :     0 :   0.0 :  None : False : False :  Reals
+            GOXC :     0 :   0.0 :  None : False : False :  Reals
+            LPNC :     0 :     0 :  None : False :  True :  Reals
+            MPNC :     0 :     0 :  None : False :  True :  Reals
+    
+      Objectives:
+        None
+    
+      Constraints:
+        ASU2_1 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        ASU2_2 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        ASU2_3 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        ASU2_4 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        ASU2_5 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        ASU2_6 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        ASU2_8 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        ASU2_9 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        ASU2_10 : Size=1
+            Key  : Lower : Body : Upper
+            None :  None :  0.0 :   0.0
+    Block m3
+    
+      Variables:
+        F : Size=8, Index=m3.G
+            Key : Lower : Value         : Upper : Fixed : Stale : Domain
+            AIR :     0 : 104810.041098 :  None : False : False :  Reals
+            GAN :     0 : 40575.0273024 :  None : False : False :  Reals
+            GAR :     0 :           0.0 :  None : False : False :  Reals
+            GOX :     0 :       23000.0 :  None : False : False :  Reals
+            LAR :     0 : 902.113300017 :  None : False : False :  Reals
+            LIN :     0 : 2313.29036988 :  None : False : False :  Reals
+            LOX :     0 :           0.0 :  None : False : False :  Reals
+            SLT :     0 :             0 :  None : False :  True :  Reals
+        f : Size=24, Index=m3.f_index
+            Key           : Lower : Value         : Upper : Fixed : Stale : Domain
+            ('M1', 'AIR') :     0 :           0.0 :  None : False : False :  Reals
+            ('M1', 'GAN') :     0 :           0.0 :  None : False : False :  Reals
+            ('M1', 'GAR') :     0 :           0.0 :  None : False : False :  Reals
+            ('M1', 'GOX') :     0 :           0.0 :  None : False : False :  Reals
+            ('M1', 'LAR') :     0 :           0.0 :  None : False : False :  Reals
+            ('M1', 'LIN') :     0 :           0.0 :  None : False : False :  Reals
+            ('M1', 'LOX') :     0 :           0.0 :  None : False : False :  Reals
+            ('M1', 'SLT') :     0 :           0.0 :  None : False : False :  Reals
+            ('M2', 'AIR') :     0 :           0.0 :  None : False : False :  Reals
+            ('M2', 'GAN') :     0 :           0.0 :  None : False : False :  Reals
+            ('M2', 'GAR') :     0 :           0.0 :  None : False : False :  Reals
+            ('M2', 'GOX') :     0 :           0.0 :  None : False : False :  Reals
+            ('M2', 'LAR') :     0 :           0.0 :  None : False : False :  Reals
+            ('M2', 'LIN') :     0 :           0.0 :  None : False : False :  Reals
+            ('M2', 'LOX') :     0 :           0.0 :  None : False : False :  Reals
+            ('M2', 'SLT') :     0 :             0 :  None : False :  True :  Reals
+            ('M3', 'AIR') :     0 : 104810.041098 :  None : False : False :  Reals
+            ('M3', 'GAN') :     0 : 40575.0273024 :  None : False : False :  Reals
+            ('M3', 'GAR') :     0 :           0.0 :  None : False : False :  Reals
+            ('M3', 'GOX') :     0 :       23000.0 :  None : False : False :  Reals
+            ('M3', 'LAR') :     0 : 902.113300017 :  None : False : False :  Reals
+            ('M3', 'LIN') :     0 : 2313.29036988 :  None : False : False :  Reals
+            ('M3', 'LOX') :     0 :           0.0 :  None : False : False :  Reals
+            ('M3', 'SLT') :     0 :             0 :  None : False :  True :  Reals
+        y : Size=3, Index=m3.R
+            Key : Lower : Value : Upper : Fixed : Stale : Domain
+             M1 :     0 :   0.0 :     1 : False : False : Binary
+             M2 :     0 :   0.0 :     1 : False : False : Binary
+             M3 :     0 :   1.0 :     1 : False : False : Binary
+        Y_GAR : Size=1, Index=None
+            Key  : Lower : Value : Upper : Fixed : Stale : Domain
+            None :     0 :   0.0 :     1 : False : False : Binary
+        y_GAR : Size=3, Index=m3.R
+            Key : Lower : Value : Upper : Fixed : Stale : Domain
+             M1 :     0 :   0.0 :     1 : False : False : Binary
+             M2 :     0 :   0.0 :     1 : False : False : Binary
+             M3 :     0 :   0.0 :     1 : False : False : Binary
+        Q : Size=4, Index=m3.C
+            Key  : Lower : Value         : Upper : Fixed : Stale : Domain
+            AIRC :     0 : 48739.9098001 :  None : False : False :  Reals
+            GOXC :     0 :             0 :  None : False :  True :  Reals
+            LPNC :     0 :             0 :  None : False :  True :  Reals
+            MPNC :     0 :             0 :  None : False :  True :  Reals
+        q : Size=12, Index=m3.q_index
+            Key            : Lower : Value         : Upper : Fixed : Stale : Domain
+            ('M1', 'AIRC') :     0 :           0.0 :  None : False : False :  Reals
+            ('M1', 'GOXC') :     0 :             0 :  None : False :  True :  Reals
+            ('M1', 'LPNC') :     0 :             0 :  None : False :  True :  Reals
+            ('M1', 'MPNC') :     0 :             0 :  None : False :  True :  Reals
+            ('M2', 'AIRC') :     0 :           0.0 :  None : False : False :  Reals
+            ('M2', 'GOXC') :     0 :             0 :  None : False :  True :  Reals
+            ('M2', 'LPNC') :     0 :             0 :  None : False :  True :  Reals
+            ('M2', 'MPNC') :     0 :             0 :  None : False :  True :  Reals
+            ('M3', 'AIRC') :     0 : 48739.9098001 :  None : False : False :  Reals
+            ('M3', 'GOXC') :     0 :             0 :  None : False :  True :  Reals
+            ('M3', 'LPNC') :     0 :             0 :  None : False :  True :  Reals
+            ('M3', 'MPNC') :     0 :             0 :  None : False :  True :  Reals
+        lamuda : Size=3, Index=m3.R
+            Key : Lower : Value          : Upper : Fixed : Stale : Domain
+             M1 :     0 :              0 :     1 : False :  True :  Reals
+             M2 :     0 :            0.0 :     1 : False : False :  Reals
+             M3 :     0 : 0.579883676171 :     1 : False : False :  Reals
+        f_compressor : Size=6, Index=m3.f_compressor_index
+            Key                 : Lower : Value         : Upper : Fixed : Stale : Domain
+            ('M1', 'V1', 'AIR') :     0 :             0 :  None : False :  True :  Reals
+            ('M1', 'V2', 'AIR') :     0 :             0 :  None : False :  True :  Reals
+            ('M2', 'V1', 'AIR') :     0 :             0 :  None : False :  True :  Reals
+            ('M2', 'V2', 'AIR') :     0 :             0 :  None : False :  True :  Reals
+            ('M3', 'V1', 'AIR') :     0 :           0.0 :  None : False : False :  Reals
+            ('M3', 'V2', 'AIR') :     0 : 104810.041098 :  None : False : False :  Reals
+        q_compressor : Size=6, Index=m3.q_compressor_index
+            Key                 : Lower : Value         : Upper : Fixed : Stale : Domain
+            ('M1', 'V1', 'AIR') :     0 :             0 :  None : False :  True :  Reals
+            ('M1', 'V2', 'AIR') :     0 :             0 :  None : False :  True :  Reals
+            ('M2', 'V1', 'AIR') :     0 :             0 :  None : False :  True :  Reals
+            ('M2', 'V2', 'AIR') :     0 :             0 :  None : False :  True :  Reals
+            ('M3', 'V1', 'AIR') :     0 :           0.0 :  None : False : False :  Reals
+            ('M3', 'V2', 'AIR') :     0 : 48739.9098001 :  None : False : False :  Reals
+        lamuda_compressor : Size=6, Index=m3.lamuda_compressor_index
+            Key          : Lower : Value          : Upper : Fixed : Stale : Domain
+            ('M1', 'V1') :     0 :              0 :     1 : False :  True :  Reals
+            ('M1', 'V2') :     0 :              0 :     1 : False :  True :  Reals
+            ('M2', 'V1') :     0 :              0 :     1 : False :  True :  Reals
+            ('M2', 'V2') :     0 :              0 :     1 : False :  True :  Reals
+            ('M3', 'V1') :     0 :            0.0 :     1 : False : False :  Reals
+            ('M3', 'V2') :     0 : 0.579883676171 :     1 : False : False :  Reals
+        y_compressor : Size=6, Index=m3.y_compressor_index
+            Key          : Lower : Value : Upper : Fixed : Stale : Domain
+            ('M1', 'V1') :     0 :     0 :     1 : False :  True : Binary
+            ('M1', 'V2') :     0 :     0 :     1 : False :  True : Binary
+            ('M2', 'V1') :     0 :     0 :     1 : False :  True : Binary
+            ('M2', 'V2') :     0 :     0 :     1 : False :  True : Binary
+            ('M3', 'V1') :     0 :   0.0 :     1 : False : False : Binary
+            ('M3', 'V2') :     0 :   1.0 :     1 : False : False : Binary
+    
+      Objectives:
+        None
+    
+      Constraints:
+        ASU3_1 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        ASU3_2 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        ASU3_3 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        ASU3_4 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        ASU3_5 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        ASU3_6 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        ASU3_7 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        ASU3_8 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        ASU3_9 : Size=1
+            Key  : Lower : Body : Upper
+            None :   1.0 :  1.0 :   1.0
+        ASU3_11 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        Mode1 : Size=8
+            Key : Lower : Body : Upper
+            AIR :   0.0 :  0.0 :   0.0
+            GAN :   0.0 :  0.0 :   0.0
+            GAR :   0.0 :  0.0 :   0.0
+            GOX :   0.0 :  0.0 :   0.0
+            LAR :   0.0 :  0.0 :   0.0
+            LIN :   0.0 :  0.0 :   0.0
+            LOX :   0.0 :  0.0 :   0.0
+            SLT :   0.0 :  0.0 :   0.0
+        Mode_1 : Size=2
+            Key : Lower : Body               : Upper
+             M2 :   0.0 :                0.0 :   0.0
+             M3 :   0.0 : -3.09228198603e-11 :   0.0
+        Mode_2 : Size=2
+            Key : Lower : Body : Upper
+             M2 :   0.0 :  0.0 :   0.0
+             M3 :   0.0 :  0.0 :   0.0
+        Mode_3 : Size=2
+            Key : Lower : Body              : Upper
+             M2 :   0.0 :               0.0 :   0.0
+             M3 :   0.0 : 9.09494701773e-13 :   0.0
+        Mode_4 : Size=2
+            Key : Lower : Body : Upper
+             M2 :   0.0 :  0.0 :   0.0
+             M3 :   0.0 :  0.0 :   0.0
+        Mode_5 : Size=2
+            Key : Lower : Body : Upper
+             M2 :  None :  0.0 :   0.0
+             M3 :  None :  0.0 :   0.0
+        Mode_6 : Size=2
+            Key : Lower : Body : Upper
+             M2 :  None :  0.0 :   0.0
+             M3 :  None :  0.0 :   0.0
+        Mode_7 : Size=2
+            Key : Lower : Body : Upper
+             M2 :  None :  0.0 :   0.0
+             M3 :  None : -1.0 :   0.0
+        Mode2_1 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        Mode2_2 : Size=1
+            Key  : Lower : Body : Upper
+            None :  None :  0.0 :   0.0
+        Mode2_3 : Size=1
+            Key  : Lower : Body : Upper
+            None :  None :  0.0 :   0.0
+        Mode2_4 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        Mode2_5 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        Mode2_6 : Size=1
+            Key  : Lower : Body : Upper
+            None :  None :  0.0 :   0.0
+        Mode3_1 : Size=1
+            Key  : Lower : Body          : Upper
+            None :   0.0 : 2313.29036988 :  None
+        Mode3_2 : Size=1
+            Key  : Lower : Body           : Upper
+            None :  None : -86.7096301156 :   0.0
+        Mode3_3 : Size=1
+            Key  : Lower : Body    : Upper
+            None :  None : -4000.0 :   0.0
+        Mode3_4 : Size=1
+            Key  : Lower : Body    : Upper
+            None :  None : -1000.0 :   0.0
+        Mode3_5 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        Mode3_5_1 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        Mode3_5_2 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        Mode3_6 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        Mode3_6_1 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        Mode3_6_2 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        Mode3_7 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        Mode3_8 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        Mode3_9 : Size=1
+            Key  : Lower : Body            : Upper
+            None :  None : -0.420116323829 :   0.0
+        Mode3_10 : Size=2
+            Key : Lower : Body            : Upper
+             V1 :  None :             0.0 :   0.0
+             V2 :  None : -0.420116323829 :   0.0
+    Block m4
+    
+      Variables:
+        F : Size=8, Index=m4.G
+            Key : Lower : Value      : Upper : Fixed : Stale : Domain
+            AIR :     0 :   148660.0 :  None : False : False :  Reals
+            GAN :     0 :   86506.43 :  None : False : False :  Reals
+            GAR :     0 :      800.0 :  None : False : False :  Reals
+            GOX :     0 :    28000.0 :  None : False : False :  Reals
+            LAR :     0 : 1700.76958 :  None : False : False :  Reals
+            LIN :     0 :        0.0 :  None : False : False :  Reals
+            LOX :     0 :   1361.558 :  None : False : False :  Reals
+            SLT :     0 :          0 :  None : False :  True :  Reals
+        f : Size=24, Index=m4.f_index
+            Key           : Lower : Value      : Upper : Fixed : Stale : Domain
+            ('M1', 'AIR') :     0 :        0.0 :  None : False : False :  Reals
+            ('M1', 'GAN') :     0 :        0.0 :  None : False : False :  Reals
+            ('M1', 'GAR') :     0 :        0.0 :  None : False : False :  Reals
+            ('M1', 'GOX') :     0 :        0.0 :  None : False : False :  Reals
+            ('M1', 'LAR') :     0 :        0.0 :  None : False : False :  Reals
+            ('M1', 'LIN') :     0 :        0.0 :  None : False : False :  Reals
+            ('M1', 'LOX') :     0 :        0.0 :  None : False : False :  Reals
+            ('M1', 'SLT') :     0 :        0.0 :  None : False : False :  Reals
+            ('M2', 'AIR') :     0 :   148660.0 :  None : False : False :  Reals
+            ('M2', 'GAN') :     0 :   86506.43 :  None : False : False :  Reals
+            ('M2', 'GAR') :     0 :      800.0 :  None : False : False :  Reals
+            ('M2', 'GOX') :     0 :    28000.0 :  None : False : False :  Reals
+            ('M2', 'LAR') :     0 : 1700.76958 :  None : False : False :  Reals
+            ('M2', 'LIN') :     0 :        0.0 :  None : False : False :  Reals
+            ('M2', 'LOX') :     0 :   1361.558 :  None : False : False :  Reals
+            ('M2', 'SLT') :     0 :          0 :  None : False :  True :  Reals
+            ('M3', 'AIR') :     0 :        0.0 :  None : False : False :  Reals
+            ('M3', 'GAN') :     0 :        0.0 :  None : False : False :  Reals
+            ('M3', 'GAR') :     0 :        0.0 :  None : False : False :  Reals
+            ('M3', 'GOX') :     0 :        0.0 :  None : False : False :  Reals
+            ('M3', 'LAR') :     0 :        0.0 :  None : False : False :  Reals
+            ('M3', 'LIN') :     0 :        0.0 :  None : False : False :  Reals
+            ('M3', 'LOX') :     0 :        0.0 :  None : False : False :  Reals
+            ('M3', 'SLT') :     0 :          0 :  None : False :  True :  Reals
+        y : Size=3, Index=m4.R
+            Key : Lower : Value : Upper : Fixed : Stale : Domain
+             M1 :     0 :   0.0 :     1 : False : False : Binary
+             M2 :     0 :   1.0 :     1 : False : False : Binary
+             M3 :     0 :   0.0 :     1 : False : False : Binary
+        Y_GAR : Size=1, Index=None
+            Key  : Lower : Value : Upper : Fixed : Stale : Domain
+            None :     0 :   1.0 :     1 : False : False : Binary
+        y_GAR : Size=3, Index=m4.R
+            Key : Lower : Value : Upper : Fixed : Stale : Domain
+             M1 :     0 :   0.0 :     1 : False : False : Binary
+             M2 :     0 :   1.0 :     1 : False : False : Binary
+             M3 :     0 :   0.0 :     1 : False : False : Binary
+        Q : Size=4, Index=m4.C
+            Key  : Lower : Value      : Upper : Fixed : Stale : Domain
+            AIRC :     0 : 51100.3884 :  None : False : False :  Reals
+            GOXC :     0 :     4900.0 :  None : False : False :  Reals
+            LPNC :     0 :          0 :  None : False :  True :  Reals
+            MPNC :     0 :          0 :  None : False :  True :  Reals
+        q : Size=12, Index=m4.q_index
+            Key            : Lower : Value      : Upper : Fixed : Stale : Domain
+            ('M1', 'AIRC') :     0 :        0.0 :  None : False : False :  Reals
+            ('M1', 'GOXC') :     0 :          0 :  None : False :  True :  Reals
+            ('M1', 'LPNC') :     0 :          0 :  None : False :  True :  Reals
+            ('M1', 'MPNC') :     0 :          0 :  None : False :  True :  Reals
+            ('M2', 'AIRC') :     0 : 51100.3884 :  None : False : False :  Reals
+            ('M2', 'GOXC') :     0 :          0 :  None : False :  True :  Reals
+            ('M2', 'LPNC') :     0 :          0 :  None : False :  True :  Reals
+            ('M2', 'MPNC') :     0 :          0 :  None : False :  True :  Reals
+            ('M3', 'AIRC') :     0 :        0.0 :  None : False : False :  Reals
+            ('M3', 'GOXC') :     0 :          0 :  None : False :  True :  Reals
+            ('M3', 'LPNC') :     0 :          0 :  None : False :  True :  Reals
+            ('M3', 'MPNC') :     0 :          0 :  None : False :  True :  Reals
+        lamuda : Size=3, Index=m4.R
+            Key : Lower : Value : Upper : Fixed : Stale : Domain
+             M1 :     0 :     0 :     1 : False :  True :  Reals
+             M2 :     0 :   0.0 :     1 : False : False :  Reals
+             M3 :     0 :   0.0 :     1 : False : False :  Reals
+        f_compressor : Size=6, Index=m4.f_compressor_index
+            Key                 : Lower : Value : Upper : Fixed : Stale : Domain
+            ('M1', 'V1', 'AIR') :     0 :     0 :  None : False :  True :  Reals
+            ('M1', 'V2', 'AIR') :     0 :     0 :  None : False :  True :  Reals
+            ('M2', 'V1', 'AIR') :     0 :     0 :  None : False :  True :  Reals
+            ('M2', 'V2', 'AIR') :     0 :     0 :  None : False :  True :  Reals
+            ('M3', 'V1', 'AIR') :     0 :   0.0 :  None : False : False :  Reals
+            ('M3', 'V2', 'AIR') :     0 :   0.0 :  None : False : False :  Reals
+        q_compressor : Size=6, Index=m4.q_compressor_index
+            Key                 : Lower : Value : Upper : Fixed : Stale : Domain
+            ('M1', 'V1', 'AIR') :     0 :     0 :  None : False :  True :  Reals
+            ('M1', 'V2', 'AIR') :     0 :     0 :  None : False :  True :  Reals
+            ('M2', 'V1', 'AIR') :     0 :     0 :  None : False :  True :  Reals
+            ('M2', 'V2', 'AIR') :     0 :     0 :  None : False :  True :  Reals
+            ('M3', 'V1', 'AIR') :     0 :   0.0 :  None : False : False :  Reals
+            ('M3', 'V2', 'AIR') :     0 :   0.0 :  None : False : False :  Reals
+        lamuda_compressor : Size=6, Index=m4.lamuda_compressor_index
+            Key          : Lower : Value : Upper : Fixed : Stale : Domain
+            ('M1', 'V1') :     0 :     0 :     1 : False :  True :  Reals
+            ('M1', 'V2') :     0 :     0 :     1 : False :  True :  Reals
+            ('M2', 'V1') :     0 :     0 :     1 : False :  True :  Reals
+            ('M2', 'V2') :     0 :     0 :     1 : False :  True :  Reals
+            ('M3', 'V1') :     0 :   0.0 :     1 : False : False :  Reals
+            ('M3', 'V2') :     0 :   0.0 :     1 : False : False :  Reals
+        y_compressor : Size=6, Index=m4.y_compressor_index
+            Key          : Lower : Value : Upper : Fixed : Stale : Domain
+            ('M1', 'V1') :     0 :     0 :     1 : False :  True : Binary
+            ('M1', 'V2') :     0 :     0 :     1 : False :  True : Binary
+            ('M2', 'V1') :     0 :     0 :     1 : False :  True : Binary
+            ('M2', 'V2') :     0 :     0 :     1 : False :  True : Binary
+            ('M3', 'V1') :     0 :   0.0 :     1 : False : False : Binary
+            ('M3', 'V2') :     0 :   0.0 :     1 : False : False : Binary
+    
+      Objectives:
+        None
+    
+      Constraints:
+        ASU4_1 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        ASU4_2 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        ASU4_3 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        ASU4_4 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        ASU4_5 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        ASU4_6 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        ASU4_7 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        ASU4_8 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        ASU4_9 : Size=1
+            Key  : Lower : Body : Upper
+            None :   1.0 :  1.0 :   1.0
+        ASU4_11 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        ASU4_13 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        Mode1 : Size=8
+            Key : Lower : Body : Upper
+            AIR :   0.0 :  0.0 :   0.0
+            GAN :   0.0 :  0.0 :   0.0
+            GAR :   0.0 :  0.0 :   0.0
+            GOX :   0.0 :  0.0 :   0.0
+            LAR :   0.0 :  0.0 :   0.0
+            LIN :   0.0 :  0.0 :   0.0
+            LOX :   0.0 :  0.0 :   0.0
+            SLT :   0.0 :  0.0 :   0.0
+        Mode_1 : Size=2
+            Key : Lower : Body : Upper
+             M2 :   0.0 :  0.0 :   0.0
+             M3 :   0.0 :  0.0 :   0.0
+        Mode_2 : Size=2
+            Key : Lower : Body : Upper
+             M2 :   0.0 :  0.0 :   0.0
+             M3 :   0.0 :  0.0 :   0.0
+        Mode_3 : Size=2
+            Key : Lower : Body : Upper
+             M2 :   0.0 :  0.0 :   0.0
+             M3 :   0.0 :  0.0 :   0.0
+        Mode_4 : Size=2
+            Key : Lower : Body : Upper
+             M2 :   0.0 :  0.0 :   0.0
+             M3 :   0.0 :  0.0 :   0.0
+        Mode_5 : Size=2
+            Key : Lower : Body   : Upper
+             M2 :  None : -300.0 :   0.0
+             M3 :  None :    0.0 :   0.0
+        Mode_6 : Size=2
+            Key : Lower : Body   : Upper
+             M2 :  None : -100.0 :   0.0
+             M3 :  None :    0.0 :   0.0
+        Mode_7 : Size=2
+            Key : Lower : Body : Upper
+             M2 :  None :  0.0 :   0.0
+             M3 :  None :  0.0 :   0.0
+        Mode2_1 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        Mode2_2 : Size=1
+            Key  : Lower : Body    : Upper
+            None :  None : -2000.0 :   0.0
+        Mode2_3 : Size=1
+            Key  : Lower : Body : Upper
+            None :  None :  0.0 :   0.0
+        Mode2_4 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        Mode2_5 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        Mode2_6 : Size=1
+            Key  : Lower : Body : Upper
+            None :  None : -1.0 :   0.0
+        Mode3_1 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :  None
+        Mode3_2 : Size=1
+            Key  : Lower : Body : Upper
+            None :  None :  0.0 :   0.0
+        Mode3_3 : Size=1
+            Key  : Lower : Body : Upper
+            None :  None :  0.0 :   0.0
+        Mode3_4 : Size=1
+            Key  : Lower : Body : Upper
+            None :  None :  0.0 :   0.0
+        Mode3_5 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        Mode3_5_1 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        Mode3_5_2 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        Mode3_6 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        Mode3_6_1 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        Mode3_6_2 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        Mode3_7 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        Mode3_8 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        Mode3_9 : Size=1
+            Key  : Lower : Body : Upper
+            None :  None :  0.0 :   0.0
+        Mode3_10 : Size=2
+            Key : Lower : Body : Upper
+             V1 :  None :  0.0 :   0.0
+             V2 :  None :  0.0 :   0.0
+    Block m5
+    
+      Variables:
+        F_L : Size=2, Index=m5.L
+            Key  : Lower : Value  : Upper : Fixed : Stale : Domain
+            LGAN :     0 : 2200.0 :  None : False : False :  Reals
+            LGOX :     0 :    0.0 :  None : False : False :  Reals
+        F : Size=4, Index=m5.F_index
+            Key         : Lower : Value  : Upper : Fixed : Stale : Domain
+            ('LGAN', 1) :     0 : 2200.0 :  None : False : False :  Reals
+            ('LGAN', 2) :     0 :    0.0 :  None : False : False :  Reals
+            ('LGOX', 1) :     0 :    0.0 :  None : False : False :  Reals
+            ('LGOX', 2) :     0 :    0.0 :  None : False : False :  Reals
+        Y : Size=4, Index=m5.Y_index
+            Key         : Lower : Value : Upper : Fixed : Stale : Domain
+            ('LGAN', 1) :     0 :   1.0 :     1 : False : False : Binary
+            ('LGAN', 2) :     0 :   0.0 :     1 : False : False : Binary
+            ('LGOX', 1) :     0 :   0.0 :     1 : False : False : Binary
+            ('LGOX', 2) :     0 :   0.0 :     1 : False : False : Binary
+        Z : Size=1, Index=None
+            Key  : Lower : Value : Upper : Fixed : Stale : Domain
+            None :     0 :     0 :     1 : False :  True : Binary
+        cost : Size=1, Index=None
+            Key  : Lower : Value : Upper : Fixed : Stale : Domain
+            None :     0 :     0 :  None : False :  True :  Reals
+        ToLIQ : Size=1, Index=None
+            Key  : Lower : Value   : Upper : Fixed : Stale : Domain
+            None :     0 : 11000.0 :  None : False : False :  Reals
+    
+      Objectives:
+        None
+    
+      Constraints:
+        Liq_1 : Size=2
+            Key : Lower : Body : Upper
+              1 :   0.0 :  0.0 :   0.0
+              2 :   0.0 :  0.0 :   0.0
+        Liq_2 : Size=2
+            Key : Lower : Body : Upper
+              1 :   0.0 :  0.0 :   0.0
+              2 :   0.0 :  0.0 :   0.0
+        Liq_3 : Size=2
+            Key : Lower : Body : Upper
+              1 :  None : -1.0 :   0.0
+              2 :  None : -1.0 :   0.0
+        Liq_4 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        Liq_5 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        Liq_6 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        pingjun1 : Size=1
+            Key  : Lower : Body : Upper
+            None :  None :  0.0 :   0.0
+        pingjun2 : Size=1
+            Key  : Lower : Body : Upper
+            None :  None : -1.0 :   0.0
+    Block m6
+    
+      Variables:
+        F_V : Size=2, Index=m6.V
+            Key  : Lower : Value : Upper : Fixed : Stale : Domain
+            VLIN :     0 :   0.0 :  None : False : False :  Reals
+            VLOX :     0 :   0.0 :  None : False : False :  Reals
+        F : Size=6, Index=m6.F_index
+            Key         : Lower : Value : Upper : Fixed : Stale : Domain
+            ('VLIN', 1) :     0 :   0.0 :  None : False : False :  Reals
+            ('VLIN', 2) :     0 :   0.0 :  None : False : False :  Reals
+            ('VLIN', 3) :     0 :   0.0 :  None : False : False :  Reals
+            ('VLOX', 1) :     0 :   0.0 :  None : False : False :  Reals
+            ('VLOX', 2) :     0 :   0.0 :  None : False : False :  Reals
+            ('VLOX', 3) :     0 :   0.0 :  None : False : False :  Reals
+        Y : Size=6, Index=m6.Y_index
+            Key         : Lower : Value : Upper : Fixed : Stale : Domain
+            ('VLIN', 1) :     0 :   0.0 :     1 : False : False : Binary
+            ('VLIN', 2) :     0 :   0.0 :     1 : False : False : Binary
+            ('VLIN', 3) :     0 :   0.0 :     1 : False : False : Binary
+            ('VLOX', 1) :     0 :   0.0 :     1 : False : False : Binary
+            ('VLOX', 2) :     0 :   0.0 :     1 : False : False : Binary
+            ('VLOX', 3) :     0 :   0.0 :     1 : False : False : Binary
+        Z : Size=1, Index=None
+            Key  : Lower : Value : Upper : Fixed : Stale : Domain
+            None :     0 :     0 :     1 : False :  True : Binary
+    
+      Objectives:
+        None
+    
+      Constraints:
+        Vap_1 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        Vap_2 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        Vap_3 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        Vap_4 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        Vap_5 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        Vap_6 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        Vap_7 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        Vap_8 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
+        Vap_9 : Size=1
+            Key  : Lower : Body : Upper
+            None :   0.0 :  0.0 :   0.0
