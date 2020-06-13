@@ -64,11 +64,11 @@ model8.Switch3 = Constraint(model8.T, rule= _Switch3)
 
 #initialize
 def _init1(m):
-    return m.y['M1', 0] == 1
+    return m.y['M1', 0] == 0
 model8.init1 = Constraint(rule=_init1)
 
 def _init2(m):
-    return m.y['M2', 0] == 0
+    return m.y['M2', 0] == 1
 model8.init2 = Constraint(rule=_init2)
 
 

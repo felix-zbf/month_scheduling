@@ -7,6 +7,8 @@ from ASU3 import model3
 from ASU4 import model4
 from Liq import model5
 from Vap import model6
+from PSA1 import model7
+from PSA2 import model8
 
 import xlrd
 import xlwt
@@ -22,6 +24,9 @@ m.add_component('m3',model3)
 m.add_component('m4',model4)
 m.add_component('m5',model5)
 m.add_component('m6',model6)
+m.add_component('m7',model7)
+m.add_component('m8',model8)
+
 
 m.SC = RangeSet(1,5)
 
@@ -100,7 +105,7 @@ m.B3 = Constraint(m.SC, rule=_B3)
 #########################
 
 def _GOX_GW1(m, s):
-    return m.F['GOX', s] == m.m1.F['GOX', s] + m.m2.F['GOX', s] + m.m3.F['GOX', s] + m.m4.F['GOX', s]
+    return m.F['GOX', s] == m.m1.F['GOX', s] + m.m2.F['GOX', s] + m.m3.F['GOX', s] + m.m4.F['GOX', s] + m.m7.F['GOX',s] + m.m8.F['GOX',s]
 m.GOX_GW1 = Constraint(m.SC, rule=_GOX_GW1)
 
 def _GOX_GW2(m, s):
@@ -240,7 +245,7 @@ def _OBJ8(m, s):
 m.OBJ8 = Constraint(m.SC, rule=_OBJ8)
 
 def _OBJ9(m, s):
-    return m.cost4[s] == (m.m1.Startup[s] + m.m2.Startup[s] + m.m3.Startup[s] + m.m4.Startup[s] + m.m1.Trans[s] + m.m2.Trans[s] + m.m3.Trans[s] + m.m4.Trans[s]) * m.dT * m.price
+    return m.cost4[s] == (m.m1.Startup[s] + m.m2.Startup[s] + m.m3.Startup[s] + m.m4.Startup[s] + m.m1.Trans[s] + m.m2.Trans[s] + m.m3.Trans[s] + m.m4.Trans[s] + m.m7.Startup[s] + m.m8.Startup[s]) * m.dT * m.price
 m.OBJ9 = Constraint(m.SC, rule=_OBJ9)
 
 def _OBJ10(m, s):

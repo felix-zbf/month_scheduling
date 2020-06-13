@@ -33,6 +33,9 @@ def _PSA_3(m, i):
     return sum(m.y[r, i] for r in m.R) == 1
 model7.PSA_3 = Constraint(model7.T, rule=_PSA_3)
 
+# 变压吸附装置除了正常的启停消耗是否存在由氮压机和氧压机等的消耗。
+
+
 #Mode1 模态1下无任何损耗
 def _Mode1(m, g, i):
     return m.f['M1', g, i] == 0 * m.y['M1', i]
@@ -64,9 +67,9 @@ model7.Switch3 = Constraint(model7.T, rule= _Switch3)
 
 #initialize
 def _init1(m):
-    return m.y['M1', 0] == 1
+    return m.y['M1', 0] == 0
 model7.init1 = Constraint(rule=_init1)
 
 def _init2(m):
-    return m.y['M2', 0] == 0
+    return m.y['M2', 0] == 1
 model7.init2 = Constraint(rule=_init2)
