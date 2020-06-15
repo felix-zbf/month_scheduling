@@ -312,11 +312,3 @@ def write_excel():
         sheet4.write(i, 2, m.m6.F_V['VLIN', i].value)
     workbook.save('solutionnew.xls')
 write_excel()
-                
-        
-    
-
-    
-
-
-
