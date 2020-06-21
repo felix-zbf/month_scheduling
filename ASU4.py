@@ -228,7 +228,7 @@ def _Mode3_6(m, s):
 model4.Mode3_6 = Constraint(model4.SC, rule=_Mode3_6)
 
 def _Mode3_6_1(m, s):
-    return m.q_compressor['M3', 'V1', 'AIR', s] == m.lamuda_compressor['M3', 'V1', s] * (148660 * 0.377 * 1.02 - 152030 * 0.377 * 1) + 152030 * 0.377 * 1 * m.y_compressor['M3', 'V1', s]
+    return m.q_compressor['M3', 'V1', 'AIR', s] == m.lamuda_compressor['M3', 'V1', s] * (148660 * 0.337 * 1.02 - 152030 * 0.377 * 1) + 152030 * 0.377 * 1 * m.y_compressor['M3', 'V1', s]
 model4.Mode3_6_1 = Constraint(model4.SC, rule=_Mode3_6_1)
 
 def _Mode3_6_2(m, s):

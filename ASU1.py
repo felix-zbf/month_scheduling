@@ -326,7 +326,3 @@ model1.Cost_5 = Constraint(model1.SC, rule= _Cost_5)
 def _Cost_6(m, s):
     return m.p[s] + m.Z['M1', 'M2', s] - m.zp[s] <= 1
 model1.Cost_6 = Constraint(model1.SC, rule= _Cost_6)
-
-
-
-
