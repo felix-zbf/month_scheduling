@@ -6,7 +6,7 @@ model5 = Block()
 model5.SC = RangeSet(1,5)
 model5.Q = RangeSet(1,2)
 model5.L = Set(initialize=['LGOX','LGAN'])
-model5.V = Set(initialize=['VLOX','VLIN'])
+# model5.V = Set(initialize=['VLOX','VLIN'])
 
 model5.F_L = Var(model5.L, model5.SC, within=Reals, bounds=(0,None), initialize=0)
 model5.F = Var(model5.L, model5.Q, model5.SC, within=Reals, bounds=(0,None), initialize=0)
