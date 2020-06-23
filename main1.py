@@ -256,6 +256,8 @@ m.OBJ10 = Constraint(m.SC, rule=_OBJ10)
 #m.obj = Objective(expr=m.rev_liq + m.rev_gas + m.rev_pipe + m.pro_liq + m.pro_vap - m.cost1 - m.cost2 - m.cost3 - m.cost4 , sense=maximize)
 
 time = {0:0, 1:1, 2:1, 3:1, 4:1, 5:1}
+# time = [0,1,2,3,4,5]
+# print(time[2])
 
 m.obj = Objective(expr= sum(m.profit[s] * time[s]for s in m.SC), sense=maximize)
 
