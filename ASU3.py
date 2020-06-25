@@ -26,7 +26,7 @@ model3.w = Var(model3.R, model3.SC_1,within=Reals, bounds=(0,None), initialize=0
 model3.v = Var(model3.R, model3.SC_1,within=Reals, bounds=(0,None), initialize=0)
 model3.p = Var(model3.SC_1, within=Binary, bounds=(0, 1), initialize=0)
 
-model3.time = {0:0, 1:1, 2:1, 3:1, 4:1, 5:1}
+model3.time =  {0:0, 1:5, 2:5, 3:1, 4:4, 5:15}
 
 
 def _ASU3_1(m, s):

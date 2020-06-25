@@ -26,7 +26,7 @@ model4.w = Var(model4.R, model4.SC_1, within=Reals, bounds=(0,None), initialize=
 model4.v = Var(model4.R, model4.SC_1, within=Reals, bounds=(0,None), initialize=0)
 model4.p = Var(model4.SC_1, within=Binary, bounds=(0, 1), initialize=0)
 
-model4.time = {0:0, 1:1, 2:1, 3:1, 4:1, 5:1}
+model4.time =  {0:0, 1:5, 2:5, 3:1, 4:4, 5:15}
 
 def _ASU4_1(m, s):
     return m.F['GOX', s] == sum(m.f[r, 'GOX', s] for r in m.R)

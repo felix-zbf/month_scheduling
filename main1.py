@@ -255,7 +255,7 @@ m.OBJ10 = Constraint(m.SC, rule=_OBJ10)
 #m.obj = Objective(expr=sum(m.Vent[i] for i in m.T1), sense=minimize)
 #m.obj = Objective(expr=m.rev_liq + m.rev_gas + m.rev_pipe + m.pro_liq + m.pro_vap - m.cost1 - m.cost2 - m.cost3 - m.cost4 , sense=maximize)
 
-time = {0:0, 1:1, 2:1, 3:1, 4:1, 5:1}
+time = {0:0, 1:5, 2:5, 3:1, 4:4, 5:15}
 # time = [0,1,2,3,4,5]
 # print(time[2])
 
